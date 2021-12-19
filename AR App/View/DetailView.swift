@@ -43,14 +43,14 @@ struct DetailView: View{
             .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
 
             HStack(spacing: 5){
-                VStack(alignment: .leading, spacing: 6){
+                VStack(alignment: .leading, spacing: 0){
                     
                     Text("Price").fontWeight(.bold).foregroundColor(.black)
-                    Text(itemData.price).fontWeight(.heavy).foregroundColor(.black).font(.largeTitle)
+                    Text(itemData.price1).fontWeight(.heavy).foregroundColor(.black).font(.largeTitle)
                 }
                 Image(itemData.image).resizable().aspectRatio(contentMode: .fit).matchedGeometryEffect(id: itemData.image, in: animation)
             }
-            .padding(1)
+            .padding(0)
             //.padding(.top, 5)
             .zIndex(1)
 
@@ -105,11 +105,11 @@ struct DetailView: View{
                 
                     
                 Button(action: {}){
-                    Text("VIEW IN YOUR ROOM").font(.title2).fontWeight(.bold).foregroundColor(.white).padding(.vertical).frame(width: UIScreen.main.bounds.width - 30).background(Color.black.opacity(0.5).clipShape(Capsule()))
+                    Text("VIEW IN YOUR ROOM").font(.title2).fontWeight(.bold).foregroundColor(.white).padding(.vertical).frame(width: UIScreen.main.bounds.width - 90).background(Color.black.opacity(0.5).clipShape(Capsule()))
                 }.padding(.top, 10)
                 
                 Button(action: {}){
-                    Text("BUY NOW").font(.title2).fontWeight(.bold).foregroundColor(.white).padding(.vertical).frame(width: UIScreen.main.bounds.width - 30).background(Color.black.opacity(0.5).clipShape(Capsule()))
+                    Text("ADD TO CART").font(.title2).fontWeight(.bold).foregroundColor(.white).padding(.vertical).frame(width: UIScreen.main.bounds.width - 90).background(Color.black.opacity(0.5).clipShape(Capsule()))
                 }
                 .padding(.top)
                 .padding(.bottom,UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 15 : 0)

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Home: View {
+    
     @State var selectedTab = scroll_Tabs[0]
     @Namespace var animation
     @State var show = false
@@ -25,6 +26,7 @@ struct Home: View {
                                 .font(.title)
                                 .foregroundColor(.black)
                         })
+                        
                         Spacer(minLength: 0)
                         
                         Button(action: {}, label: {
@@ -44,10 +46,9 @@ struct Home: View {
                             Circle() .fill(Color.red) .frame(width: 15, height: 15) .offset(x: 5, y: -10)
                         })
                         }
+                    
                     Text("AR Shop").font(.title).fontWeight(.heavy).foregroundColor(.black)
                 }
-                
-                
                 .padding()
                 .padding(.top,UIApplication.shared.windows.first?.safeAreaInsets.top)
                 .background(Color.white)
@@ -65,6 +66,7 @@ struct Home: View {
                         .padding(.bottom,10)
                         
                         ScrollView(.horizontal, showsIndicators: false, content: {
+                            
                             HStack(spacing: 15){
                                 ForEach(scroll_Tabs, id: \.self){ tab in
                                     TabButton(title: tab, selectedTab: $selectedTab, animation: animation)
@@ -89,7 +91,7 @@ struct Home: View {
                         .padding(.top,10)
                     }
                 })
-            }}.padding(.top, -30)
+            }}.padding(.top, -20)
             .background(Color.black.opacity(0.05).ignoresSafeArea(.all, edges: .all))
             
             if selectedItem != nil && show{
