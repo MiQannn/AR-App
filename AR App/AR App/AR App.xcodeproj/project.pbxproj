@@ -30,7 +30,7 @@
 		786E340B276A5D3600562306 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
 		786E340E276A60C700562306 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
 		78761837276775F80006284E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		78D7C4BC276314D7002F3BBA /* AR App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D7C4BC276314D7002F3BBA /* RealOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D7C4BF276314D7002F3BBA /* AR_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_AppApp.swift; sourceTree = "<group>"; };
 		78D7C4C1276314D7002F3BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78D7C4C3276314DB002F3BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		78D7C4BD276314D7002F3BBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78D7C4BC276314D7002F3BBA /* AR App.app */,
+				78D7C4BC276314D7002F3BBA /* RealOne.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			);
 			name = "AR App";
 			productName = "AR App";
-			productReference = 78D7C4BC276314D7002F3BBA /* AR App.app */;
+			productReference = 78D7C4BC276314D7002F3BBA /* RealOne.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -349,7 +349,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "miqan.AR-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RealOne;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -380,7 +380,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "miqan.AR-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RealOne;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

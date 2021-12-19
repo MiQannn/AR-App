@@ -55,9 +55,9 @@ struct CartView: View {
     }
     
     func calculateTotalPrice()->String{
-        var price: Float = 0
+        var price: Int = 0
         cartData.stocks.forEach{ (stock) in
-            price += Float(stock.quantity) * stock.price2
+            price += Int(stock.quantity) * stock.price2
         }
         return getPrice(value: price)
     }

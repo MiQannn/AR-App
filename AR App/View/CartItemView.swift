@@ -41,7 +41,8 @@ struct CartItemView: View {
                     
                     HStack(spacing: 15){
                         
-                        Text(getPrice(value: stock.price2)).font(.title2).fontWeight(.heavy).foregroundColor(.black)
+                        Text(getPrice(value: Int(stock.price2))).fontWeight(.heavy).foregroundColor(.black).font(.system(size: 15))
+                        
                         Spacer(minLength: 0)
                         
                         Button(action: {
@@ -109,7 +110,7 @@ struct CartItemView: View {
     }
 }
         
-    func getPrice(value: Float) -> String{
+    func getPrice(value: Int) -> String{
         
         let format = NumberFormatter()
         format.numberStyle = .currency

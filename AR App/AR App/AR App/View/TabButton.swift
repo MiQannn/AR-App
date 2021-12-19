@@ -13,9 +13,9 @@ struct TabButton: View{
     var animation: Namespace.ID
     
     var body: some View{
-        
         Button(action: {
-            withAnimation(.spring()){selectedTab = title}}, label: {
+            withAnimation(.spring()){selectedTab = title}
+        }, label: {
             VStack(alignment: .leading, spacing: 6, content: {
                 Text(title) .fontWeight(.heavy).foregroundColor(selectedTab == title ? .black: .gray)
                 if selectedTab == title{
