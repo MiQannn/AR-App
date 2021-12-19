@@ -3,7 +3,7 @@
 
 - I separate my project into 2 parts:
 
-**Shopping app:
+**Shopping app:**
 ```
 1/ Download the file "AR App"
 2/ Unzip it
@@ -11,7 +11,7 @@
 4/ Enjoy :)
 ```
 
-**AR app:
+**AR app:**
 ```
 1/ Download the file "AR"
 2/ Unzip it
