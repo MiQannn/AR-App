@@ -19,6 +19,6 @@
 4/ Follow this link to set up for IOS platform: https://www.youtube.com/watch?v=eu_eG0eTFlA
 5/ After finish setting up, choose File -> Build Setting -> Choose IOS platform -> Build & Run
 6/ Enjoy :)
-**Important: If you can not run the file AR, please download it from here: https://tinyurl.com/arapp
+**Important: If you can not run the file AR, please download it from here: https://tinyurl.com/arapp**
 ```
 
